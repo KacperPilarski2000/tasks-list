@@ -1,4 +1,4 @@
-.html {
+html {
     box-sizing: border-box;
 }
 
@@ -15,6 +15,15 @@
     min-width: 310px;
     padding: 30px;
     margin:0 auto; 
+}
 
+.buttons__button {
+    display: grid;
+    color: rgb(35, 105, 210);
 
+}
+
+.header_three {
+    margin: 0px;
+    padding: 0px;
 }

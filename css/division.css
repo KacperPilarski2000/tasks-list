@@ -46,6 +46,9 @@
 }
 
 .divisionLast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: hsl(0, 0%, 99%);
   box-shadow: 1px 2px 24px -20px rgba(66, 68, 90, 1);
   font-family: "Lato", sans-serif;
@@ -75,7 +78,6 @@
   margin-top: 1px;
   padding: 10px;
   max-width: 610px;
-
 }
 
 @media (max-width: 767px) {
@@ -84,7 +86,7 @@
     background-color: hsl(0, 0%, 99%);
     min-height: 20px;
     margin-top: 2px;
-  min-width: 260px;
+    min-width: 260px;
   }
 }
 

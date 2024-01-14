@@ -23,9 +23,9 @@
 .listItem__button {
   background-color: rgb(210, 44, 7);
   font-family: "Lato", sans-serif;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 20px;
+  
+  min-width: 30px;
+  max-width: 30px;
   height: 20px;
   border: none;
   transition: background 1s, transform 10s;
@@ -36,10 +36,13 @@
 }
 .listItem__checkButton {
   background-color: green;
-  min-width: 11px;
-  width: 15px;
   height: 20px;
+  width: 22px;
   border: none;
+}
+
+.tasks__hidden{
+display: none;
 }
 
 .unorderedList {
@@ -51,7 +54,6 @@
 
 @media (max-width: 767px) {
   .unorderedList {
-  
     margin-top: 2px;
     padding-bottom: 16px;
   }
@@ -75,7 +77,4 @@
     grid-template-columns: auto 1fr auto;
     padding-left: 15px;
   }
-}
-.button {
-  color: aquamarine;
 }
