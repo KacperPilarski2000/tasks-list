@@ -1,29 +1,21 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*,::after, ::before {
-    box-sizing: inherit;
+*,
+::after,
+::before {
+  box-sizing: inherit;
 }
 
 .body {
-    background-color: hsl(60, 6%, 75%);
-    margin:0 auto; 
+  background-color: hsl(60, 6%, 75%);
+  margin: 0 auto;
 }
 .section {
-    max-width: 610px;
-    min-width: 310px;
-    padding: 30px;
-    margin:0 auto; 
+  max-width: 610px;
+  min-width: 310px;
+  padding: 30px;
+  margin: 0 auto;
 }
 
-.buttons__button {
-    display: grid;
-    color: rgb(35, 105, 210);
-
-}
-
-.header_three {
-    margin: 0px;
-    padding: 0px;
-}

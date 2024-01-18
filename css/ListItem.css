@@ -9,40 +9,40 @@
   margin: 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .listItem {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    font-family: "Lato", sans-serif;
-    padding-bottom: 20px;
-    padding-top: 12px;
-    border-bottom: 1px solid hsl(0, 0%, 0%);
+    display: flex;
   }
 }
 
 .listItem__button {
   background-color: rgb(210, 44, 7);
   font-family: "Lato", sans-serif;
-  
   min-width: 30px;
   max-width: 30px;
   height: 20px;
   border: none;
-  transition: background 1s, transform 10s;
-  transform-origin: 100px 200px;
+  transition: 1s;
+  cursor: pointer;
 }
 .listItem__button:hover {
   background-color: brown;
 }
 .listItem__checkButton {
-  background-color: green;
+  background-color: hsl(120, 100%, 25%);
   height: 20px;
   width: 22px;
   border: none;
+  transition: 1s;
+  cursor: pointer;
 }
 
-.tasks--hidden{
-display: none;
+.listItem__checkButton:hover {
+  background-color: hsl(120, 75%, 20%);
+}
+
+.listItem--hidden {
+  display: none;
 }
 
 .unorderedList {
@@ -65,16 +65,17 @@ display: none;
 
 .listItem__paragraph {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: flex-start;
   justify-items: center;
+  margin-left: 10px;
   padding-left: 15px;
 }
 
 @media (max-width: 767px) {
   .listItem__paragraph {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    padding-left: 15px;
+    display: flex;
+    margin-left: 10px;
   }
 }

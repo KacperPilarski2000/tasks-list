@@ -4,7 +4,7 @@
   grid-gap: 7px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 400px) {
   .form {
     display: grid;
     grid-template-columns: 1fr;
@@ -20,11 +20,14 @@
   border: none;
   font-size: 19px;
   transition: 1s;
-  padding: 0px;
+cursor: pointer;
+  padding: 3px;
 }
 
 .form__button:hover {
   background-color: hsl(220, 56%, 60%);
+  transform: scale(1.1);
+
 }
 
 @media (max-width: 767px) {
