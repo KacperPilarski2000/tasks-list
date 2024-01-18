@@ -10,6 +10,8 @@ Instruction how to use:
 - press blue button,
 - when you do your task, press green button,
 - when you wanna delete task, press red button,
+- to hide done tasks, press "Ukryj ukończone",
+- to check all tasks, press "Ukończ wszystkie",
 
 Demo link 
 https://kacperpilarski2000.github.io/Task-lists/list.html
