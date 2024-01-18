@@ -14,8 +14,7 @@ Instruction how to use:
 - to check all tasks, press "Ukończ wszystkie",
 
 Demo link 
-https://kacperpilarski2000.github.io/Task-lists/list.html
-
+https://kacperpilarski2000.github.io/tasks-list/
 ### Languages and tools in this side
 - HTML
 - Java Script
