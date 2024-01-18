@@ -41,7 +41,7 @@
   border: none;
 }
 
-.tasks__hidden{
+.tasks--hidden{
 display: none;
 }
 
